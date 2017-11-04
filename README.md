@@ -1,6 +1,6 @@
 # MEditor
 ## A simple mesh editor
-This is one of the assignment of CIS-560 computer graphics. We are required to implement a simple mesh editor using half-edge structure. We are also required to implement four geometry manipulation function, including triangulate face, split edge, extrude face and Catmull-Clark subdivision. Apart from that, I also implemented mouse click interaction using raycasting and a bevel edge function.
+This is one of the assignments of CIS-560 computer graphics. We are required to implement a simple mesh editor applying half-edge structure. We are also required to implement four geometry manipulation functions, including triangulate face, split edge, extrude face and Catmull-Clark subdivision. Apart from that, I also implemented mouse clicking interaction using raycasting and a bevel edge function.
 
 ### Overview
 
@@ -14,6 +14,7 @@ This is one of the assignment of CIS-560 computer graphics. We are required to i
 ![Mouse Click Interaction](img/MEditor_raycast.gif)
 
 *Traverse Elements*
+I pressed N -> M -> F -> V -> M -> N -> V -> H -> M -> F -> Shift+H
 ![Traverse Elements](img/MEditor_traverse.gif)
 
 *Face Color & Vertex Position Adjustment*
